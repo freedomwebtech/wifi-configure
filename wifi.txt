@@ -1,0 +1,8 @@
+auto lo
+
+allow-hotplug wlan0
+auto wlan0
+
+                iface wlan0 inet dhcp
+                wpa-ssid "Raspberry"
+                wpa-psk "freedomtech"
